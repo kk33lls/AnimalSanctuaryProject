@@ -1,6 +1,6 @@
 package com.skilldistillery.animals.entities;
 
-public class Walrus {
+public class Walrus extends Animal {
 	private String noise = "Growls";
 	
 	@Override

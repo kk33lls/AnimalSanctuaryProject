@@ -1,6 +1,6 @@
 package com.skilldistillery.animals.entities;
 
-public class Narwhal {
+public class Narwhal extends Animal{
 	private String noise = "Bye buddy! I hope you find your dad!";
 	
 	@Override

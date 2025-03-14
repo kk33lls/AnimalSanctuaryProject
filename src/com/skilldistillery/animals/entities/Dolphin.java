@@ -1,6 +1,6 @@
 package com.skilldistillery.animals.entities;
 
-public class Dolphin {
+public class Dolphin extends Animal {
 	private static String noise = "click click click";
 	
 	@Override
