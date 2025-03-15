@@ -1,7 +1,15 @@
 package com.skilldistillery.animals.entities;
 
-public class Animal {
+import com.skilldistillery.animals.app.Sanctuary;
+
+public class Animal extends Sanctuary {
+	
+	public Animal(String name) {
+		super();
+		this.name = name;
+	}
 	private String name;
+	
 
 	public String getName() {
 		return name;
