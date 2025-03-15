@@ -10,13 +10,13 @@ public class AnimalSanctuaryApp {
 		Scanner kb = new Scanner(System.in);
 		//TODO place everything below in a do while loop
 		
-		//TODO instantiate a Sanct
-		
+		//TODO instantiate a Sanctuary
+		Sanctuary sanctuary = new Sanctuary();
 		//TODO instantiate a attendant
-		
+		Attendant attendant = new Attendant();
 		//TODO Add attendant to sanct
 		
-		//TODO Create a and add animals to Sanct
+		//TODO Create a loop? and add animals to Sanct
 		
 		//TODO Have sanct list animals
 		
