@@ -16,7 +16,7 @@ public class Attendant extends Sanctuary{
 			if (animals[i] == null) {
 				System.out.println("This enclosure is empty, hmmm, onto the next one");	
 			}
-			else {//Animal is present FIXME add food hard code or math.random
+			else {//Animal is present 
 				System.out.print("I will feed " + animals[i].getName() + " " + number  + " foods.");
 				animals[i].eat(number);
 			}
